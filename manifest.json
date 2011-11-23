@@ -1,0 +1,16 @@
+{
+  "name": "Scroll Read",
+  "version": "1",
+  "description": "Made for people who read a lot on long webpage that needs a lot of scrolling: (i)it shows the percentage of remaining page (to be scrolled/read) (ii)remember the previous scrolling state its in (so you can continue reading where you left off last time) ",
+  "icons": {
+     "16":  "icon16.png",
+     "48":  "icon48.png",
+     "128": "icon128.png"
+  },
+  "content_scripts": [ {
+     "js": [ "js/jquery.js", "js/script.js" ],
+     "css": ["css/style.css"],
+     "matches": [ "http://*/*" ],
+     "all_frames": true
+  } ]
+}

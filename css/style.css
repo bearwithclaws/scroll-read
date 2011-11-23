@@ -1,0 +1,12 @@
+.scroll-read {
+  position: fixed;
+  right: 0px;
+  bottom: 20px;  
+  z-index: 99999;
+  font-size: 18px;
+  color: #fff;
+  padding: 5px 10px;
+  background: rgba(0,0,0, 0.5);
+  text-align: right;
+  display: none;
+}
